@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
         <menu>
           <ul>
@@ -20,16 +21,16 @@
         </menu>
       </nav>
       <a href="#">
-        <img src="./images/logo-black.svg" alt="" />
-        <address>
-          <a href="tel:+99995555555">+9(999)555-55-55</a>
-          <a href="info@sobaka.ge">info@sobaka.ge</a>
-          Принсенграхт 263- 265, Амстердам
-        </address>
+        <img class="logo-black" src="./images/logo-black.svg" alt="" />
       </a>
+      <address>
+        <a href="tel:+99995555555">+9(999)555-55-55</a>
+        <a href="info@sobaka.ge">info@sobaka.ge</a>
+        <div>Принсенграхт 263- 265, Амстердам</div>
+      </address>
     </header>
     <main>
-      <section>
+      <section class="cover">
         <img src="./images/cover.jpg" alt="абстрактные цветы" />
         <div class="cover">
           <h1>ОНО ТЕБЕ НАДО</h1>
@@ -40,16 +41,20 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2></h2>
-        лоты
+      <section class="lots">
+        <h2>лоты</h2>
         <ul>
           <li>
-            <span> Фильм режиссёра, который бросил киношколу </span>
-            <p>
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-              ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </p>
+            <a href="" style="text-decoration: none">
+              <article>
+                <span> Фильм режиссёра, который бросил киношколу </span>
+                <p>
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
+            </a>
           </li>
           <li>
             <p>
@@ -75,6 +80,8 @@
             </p>
           </li>
         </ul>
+        <a href="">смотреть больше</a>
+
         <img src="./images/card-lot-01.jpg" alt="" />
         <img src="./images/card-lot-02.jpg" alt="" />
         <img src="./images/card-lot-03.jpg" alt="" />
@@ -82,7 +89,7 @@
           <article></article>
         </a>
       </section>
-      <section>
+      <section class="about">
         <div>
           <img src="./images/logo-white.svg" alt="" />
         </div>
@@ -106,7 +113,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <address>
         <a href="tel:+99995555555">+9(999)555-55-55</a>
         <a href="info@sobaka.ge">info@sobaka.ge</a>

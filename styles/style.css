@@ -87,11 +87,29 @@ address {
 .cover__title {
   position: absolute;
   letter-spacing: 0.3em;
-  top: 0px;
+  top: 165px;
+  color: white;
+  padding-inline: 50px;
+  width: 100%;
+}
+.no-letter-spacing {
+  letter-spacing: 0em;
 }
 
 .aligned-text {
+  display: block;
+  font-size: 100px;
   z-index: 0;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
 }
 
 .bet-button {

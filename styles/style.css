@@ -209,19 +209,41 @@ address {
 }
 
 .about {
-  width: 240px;
-  height: 240px;
-  top: 35px;
-  left: 47px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-inline: 24px;
+  padding-top: 120px;
+}
+.about__column {
+  display: flex;
+  flex-direction: column;
+}
+.about__logo {
+  background: black;
+  max-width: 240px;
+  max-height: 240px;
+  border-radius: 50%;
+  margin-top: 35px;
+  margin-left: 47px;
+}
+.about__logo-image {
+  padding-top: 64px;
+  padding-bottom: 62px;
+  padding-left: 47px;
+  padding-right: 46px;
+}
+.about__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 133px;
+  margin-bottom: 100px;
+}
+.about__text {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
 
-  background-color: black;
-}
-.logo-white {
-  width: 148px;
-  height: 114px;
-  top: 64px;
-  left: 46.48px;
-}
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;

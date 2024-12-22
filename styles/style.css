@@ -1,29 +1,39 @@
+html {
+  background-color: grey;
+}
+body {
+  background-color: white;
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   height: 293px;
 }
-.header nav {
+.header__menu {
   padding-inline: 50px;
 }
 
-.header address {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  margin-left: 184px;
-  margin-right: 50px;
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
 }
 
-ul li {
-  display: inline;
+.header__links-list-item_no-bullit {
+  list-style: none;
 }
 
-.logo-black {
+.header__links-list-item {
+  list-style: circle;
+  text-decoration: underline;
+}
+
+.header__links-list-item {
+}
+
+.header__logo-image {
   width: 148px;
   height: 105px;
   top: 92px;
@@ -36,11 +46,43 @@ address {
   unicode-bidi: inherit;
 }
 
+.header address {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 184px;
+  margin-right: 50px;
+}
 .cover {
+  position: relative;
+}
+.bet-button {
+  background-color: transparent;
 }
 .lots {
 }
 .about {
 }
 .footer {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+}
+
+.footer__menu-link {
+  text-align: center;
+  list-style: none;
+  width: 163.9px;
+  height: 64px;
+}
+
+.footer__social-list {
+  display: flex;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }

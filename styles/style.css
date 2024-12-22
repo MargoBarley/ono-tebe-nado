@@ -95,7 +95,6 @@ address {
 .no-letter-spacing {
   letter-spacing: 0em;
 }
-
 .aligned-text {
   display: block;
   font-size: 100px;
@@ -103,18 +102,40 @@ address {
   line-height: 115px;
   letter-spacing: 0.3em;
 }
-
 .aligned-text_center {
   text-align: center;
 }
-
 .aligned-text_right {
   text-align: right;
 }
 
+.cover__description {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  padding-inline: 50px;
+  bottom: 61px;
+}
+.cover__description-text {
+  font-size: 22px;
+  color: white;
+  line-height: 51px;
+  word-spacing: 0.9em;
+  text-transform: uppercase;
+}
 .bet-button {
+  color: white;
+  border-color: white;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: flex-end;
   background-color: transparent;
   z-index: 5;
+  margin-left: 107px;
+  font-size: 22px;
+  padding-inline: 31px;
+  padding-top: 12px;
+  padding-bottom: 11px;
 }
 .lots {
   display: grid;
